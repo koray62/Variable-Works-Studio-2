@@ -1,0 +1,101 @@
+{
+  "platform": {
+    "title": "AnalytiQ Platform Features",
+    "subtitle": "Comprehensive analytics solutions specifically developed for the banking sector",
+    "f1": {
+      "title": "Integrated Data Warehouse",
+      "desc": "Consolidate all your data sources in one central location. Automatically integrate data from different systems and prepare it for analysis."
+    },
+    "f2": {
+      "title": "ETL Processes",
+      "desc": "Automate data extraction, transformation, and loading operations. Easily manage complex data flows with a visual interface."
+    },
+    "f3": {
+      "title": "Smart Variable Selection",
+      "desc": "Automatically identify variables with the highest predictive power from tens of thousands of options using AI-powered intelligent variable selection."
+    },
+    "f4": {
+      "title": "Model Development",
+      "desc": "Rapid model development with AutoML capabilities. Multiple algorithm support, automatic hyperparameter optimization, and model comparison tools."
+    },
+    "f5": {
+      "title": "Model Deployment",
+      "desc": "Deploy your developed models to production with a single click. Secure deployment with API integration, versioning, and monitoring features."
+    },
+    "f6": {
+      "title": "BI and Reporting",
+      "desc": "Create interactive dashboards with comprehensive visualization tools. Accelerate your decision-making processes with customizable reports and automated notifications."
+    }
+  },
+  "technical": {
+    "title": "Technological Advantages",
+
+    "f1": {
+      "title": "Patented Technology",
+      "desc": "High performance and low cost with patented technologies used in data processing and analysis processes."
+    },
+    "f2": {
+      "title": "3-Year R&D",
+      "desc": "Solution specifically optimized for the banking sector as a result of 3-year R&D collaboration with KKB."
+    },
+    "f3": {
+      "title": "No Third-Party Dependencies",
+      "desc": "Full control and flexibility with domestic technology that minimizes external dependencies."
+    },
+    "f4": {
+      "title": "AutoML Capabilities",
+      "desc": "Reduces the need for expert staff and accelerates the development process with automatic model development features. Corporate memory and model documentation remain secure within the organization."
+    }
+  },
+
+  "variables": {
+    "title": "Data Enrichment Module",
+    "level1": {
+      "title": "KKB Level 1 Variables",
+      "subtitle": "Basic Variables",
+      "desc": "Customer demographic information and basic account data",
+      "f1": "Demographic information such as age, gender, occupation",
+      "f2": "Account opening date and account type",
+      "f3": "Geographic information such as city, district",
+      "f4": "Basic customer segmentation"
+    },
+    "level2": {
+      "title": "KKB Level 2 Variables",
+      "subtitle": "Transactional Variables",
+      "desc": "Customer transaction history and behavioral data",
+      "f1": "Monthly average transaction count and amount",
+      "f2": "Channel usage habits (ATM, branch, mobile)",
+      "f3": "Product usage intensity",
+      "f4": "Transaction frequency and regularity"
+    },
+    "level3": {
+      "title": "KKB Level 3 Variables",
+      "subtitle": "Advanced Analytics Variables",
+      "desc": "Derived variables and trend analyses",
+      "f1": "Spending trends and seasonality",
+      "f2": "Balance change rates",
+      "f3": "Product cross-sell potential",
+      "f4": "Customer lifecycle stage"
+    },
+    "level4": {
+      "title": "Bank Data Variables",
+      "subtitle": "Machine Learning Variables",
+      "desc": "AI-based predictive variables",
+      "f1": "Churn risk score",
+      "f2": "Product purchase probability",
+      "f3": "Customer value segmentation",
+      "f4": "Behavioral clustering results"
+    },
+    "level5": {
+      "title": "Complex Variables",
+      "subtitle": "External Data Sources",
+      "desc": "Third-party data and alternative data sources",
+      "f1": "Credit bureau score and debt information",
+      "f2": "Social media and digital footprint",
+      "f3": "Macroeconomic indicators",
+      "f4": "Industry and regional trends"
+    }
+  }
+
+
+}

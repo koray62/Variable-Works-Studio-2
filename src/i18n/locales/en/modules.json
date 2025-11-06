@@ -1,0 +1,29 @@
+{
+  "modules": {
+    "title": "Modular Solution Approach",
+    "subtitle": "Every bank has different needs. Choose the modules you need.",
+    "enrichment": {
+      "title": "Data Enrichment Module",
+      "desc": "Multi-level variables derived from existing data",
+      "f1": "Level 1-3 KKB variables",
+      "f2": "Variables derived from bank data",
+      "f3": "Complex variable derivation",
+      "f4": "Alternative data integration"
+    },
+    "analytiq": {
+      "title": "AnalytiQ Platform",
+      "desc": "End-to-end analytics solution platform",
+      "f1": "ETL processes",
+      "f2": "Model development",
+      "f3": "Model deployment",
+      "f4": "BI & Decision support"
+    },
+    "hybrid": {
+      "title": "Hybrid Solutions",
+      "desc": "Customizable according to your needs",
+      "f1": "Data enrichment only",
+      "f2": "Analytics platform only",
+      "f3": "Fully integrated solution"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "usecases": {
+    "title": "Banking-Specific Use Cases",
+    "customer": {
+      "title": "Customer Analytics",
+      "i1": "Customer default prediction",
+      "i2": "Customer lifetime value analysis",
+      "i3": "Cross-sell/up-sell targeting"
+    },
+    "risk": {
+      "title": "Risk Management",
+      "i1": "Credit limit optimization",
+      "i2": "Early warning systems for risk",
+      "i3": "Transaction fraud detection"
+    },
+    "ops": {
+      "title": "Operational Efficiency",
+      "i1": "Automated decision systems",
+      "i2": "Process optimization",
+      "i3": "Resource allocation"
+    }
+  },
+  "benefits": {
+    "title": "Platform Benefits",
+    "cost": {
+      "title": "Cost Advantage",
+      "i1": { "l": "Single Integrated Solution", "d": "Eliminate multiple software costs" },
+      "i2": { "l": "Low Hardware Cost", "d": "Save with patented application architecture" },
+      "i3": { "l": "HR Optimization", "d": "Reduce expert needs with built-in know-how" },
+      "i4": { "l": "50% Cost Savings", "d": "Compared to traditional solutions approx. 650K - 2M USD/year" }
+    },
+    "models": {
+      "title": "Stronger Models",
+      "i1": { "l": "Advanced Capabilities", "d": "Features not found even in the most advanced institutions" },
+      "i2": { "l": "Rapid Development", "d": "Better models in shorter time" },
+      "i3": { "l": "High ROI", "d": "Accurate decision making and maximum profitability" }
+    },
+    "security": {
+      "title": "Security and Compliance",
+      "i1": { "l": "KKB Approved Platform", "d": "Reliable with official approvals" },
+      "i2": { "l": "Penetration Tests", "d": "Passed security testing" },
+      "i3": { "l": "Local and National Solution", "d": "Full control and flexibility" }
+    },
+    "deployment": {
+      "title": "Flexible Deployment",
+      "i1": { "l": "Cloud or on-premise", "d": "Flexible installation options according to your needs" },
+      "i2": { "l": "Hybrid architecture support", "d": "Seamless operation in mixed infrastructures" },
+      "i3": { "l": "Easy integration", "d": "Quick integration with your existing systems" }
+    }
+  }
+
+}

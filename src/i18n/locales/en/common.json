@@ -1,0 +1,72 @@
+{
+  "nav": {
+    "brand": "VariableWorks Studio",
+    "solutions": "Solutions",
+    "contact": "Contact",
+    "requestDemo": "Request Demo",
+    "downloadPDF": "Download Sales Presentation"
+  },
+  "hero": {
+    "title": "From Raw Data to",
+    "titleHighlight": "Decision",
+    "subtitle": "AI-Powered Data Enrichment and Analytics Platform Solutions",
+    "exploreSolutions": "Explore Solutions",
+    "getInTouch": "Get In Touch"
+  },
+  "process": {
+    "step1": "Raw Data",
+    "step2": "Data Enrichment",
+    "step3": "Analytics Models",
+    "step4": "Decision Support",
+    "subtitle": "Modular AI and analytics solutions for the banking sector"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Fill out the form to get detailed information about our solutions",
+    "name": "Full Name",
+    "namePlaceholder": "Your full name",
+    "email": "Email",
+    "emailPlaceholder": "email@example.com",
+    "company": "Company",
+    "companyPlaceholder": "Company name",
+    "phone": "Phone Number",
+    "phonePlaceholder": "+90 (555) 123-4567",
+    "message": "Message",
+    "messagePlaceholder": "Your message...",
+    "submit": "Submit",
+    "sending": "Sending...",
+    "successMessage": "Your message has been sent successfully!",
+    "errors": {
+      "nameRequired": "Name is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email address",
+      "phoneInvalid": "Please enter a valid phone number",
+      "messageRequired": "Message is required",
+      "messageTooShort": "Message must be at least 10 characters",
+      "sendFailed": "Failed to send message. Please try again."
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Common questions about VariableWorks Studio"
+  },
+  "technical": {
+    "title": "Technical Superiority"
+  },
+  "footer": {
+    "description": "AI-powered data enrichment and analytics platform solutions",
+    "solutions": "Solutions",
+    "dataEnrichment": "Data Enrichment",
+    "analytiqPlatform": "AnalytiQ Platform",
+    "hybridSolutions": "Hybrid Solutions",
+    "platform": "Platform",
+    "features": "Features",
+    "documentation": "Documentation",
+    "api": "API",
+    "contactUs": "Contact Us",
+    "support": "Support",
+    "copyright": "© 2025 VariableWorks Studio. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "questions": [
+    {
+      "q": "What distinguishes VariableWorks Studio from other analytics platforms?",
+      "a": "Our patented technology, 3-year R&D collaboration with KKB, and modular structure specifically optimized for the banking sector set us apart."
+    },
+    {
+      "q": "How does the modular structure work? Can I use only the modules I need?",
+      "a": "Yes, we have a completely modular structure. You can choose from data enrichment only, analytics platform only, or fully integrated solution options."
+    },
+    {
+      "q": "What is the difference between Level 1, 2, and 3 in KKB variables?",
+      "a": "Level 1 contains basic variables, Level 2 includes advanced risk scoring variables, and Level 3 consists of complex variables with multi-dimensional and time series analyses."
+    },
+    {
+      "q": "What does the Smart Variable Selection feature do?",
+      "a": "This AI-powered feature automatically selects variables with the highest predictive power from tens of thousands of options and accelerates the model development process."
+    },
+    {
+      "q": "Is the platform cloud-based or can it be installed on-premise?",
+      "a": "Both options are available. We offer cloud, on-premise, or hybrid architecture support."
+    },
+    {
+      "q": "How long does the installation and integration process take?",
+      "a": "While it varies depending on the project scope, our modular structure enables rapid implementation."
+    }
+  ]
+}
