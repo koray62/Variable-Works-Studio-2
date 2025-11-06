@@ -1,0 +1,52 @@
+{
+  "usecases": {
+    "title": "Bankaya Özel Kullanım Senaryoları",
+    "customer": {
+      "title": "Müşteri Analitiği",
+      "i1": "Müşteri temerrüt tahmini",
+      "i2": "Müşteri yaşam boyu değer analizi",
+      "i3": "Çapraz satış/ek satış hedefleme"
+    },
+    "risk": {
+      "title": "Risk Yönetimi",
+      "i1": "Kredi limiti optimizasyonu",
+      "i2": "Risk için erken uyarı sistemleri",
+      "i3": "İşlem dolandırıcılık tespiti"
+    },
+    "ops": {
+      "title": "Operasyonel Verimlilik",
+      "i1": "Otomatik karar sistemleri",
+      "i2": "Süreç optimizasyonu",
+      "i3": "Kaynak tahsisi"
+    }
+  },
+  "benefits": {
+    "title": "Platform ile Sağlanan Faydalar",
+    "cost": {
+      "title": "Maliyet Avantajı",
+      "i1": { "l": "Tek Entegre Çözüm", "d": "Birden fazla yazılım maliyetinden kurtulun" },
+      "i2": { "l": "Düşük Donanım Maliyeti", "d": "Patentli uygulama mimarisi ile tasarruf" },
+      "i3": { "l": "İnsan Kaynağı Optimizasyonu", "d": "Built-in know-how ile uzman ihtiyacını azaltın" },
+      "i4": { "l": "%50 Maliyet Tasarrufu", "d": "Geleneksel çözümler yaklaşık 650K - 2M USD/yıla göre" }
+    },
+    "models": {
+      "title": "Daha Güçlü Modeller",
+      "i1": { "l": "İleri Seviye Yetenekler", "d": "En gelişmiş kurumlarda bile olmayan özellikler" },
+      "i2": { "l": "Hızlı Geliştirme", "d": "Daha kısa sürede daha iyi modeller" },
+      "i3": { "l": "Yüksek ROI", "d": "Doğru karar verme ve maksimum karlılık" }
+    },
+    "security": {
+      "title": "Güvenlik ve Uyumluluk",
+      "i1": { "l": "KKB Onaylı Platform", "d": "Resmi onaylarla güvenilir" },
+      "i2": { "l": "Penetrasyon Testleri", "d": "Güvenlik testlerinden geçmiş" },
+      "i3": { "l": "Yerli ve Milli Çözüm", "d": "Tam kontrol ve esneklik" }
+    },
+    "deployment": {
+      "title": "Esnek Deployment",
+      "i1": { "l": "Cloud veya on-premise", "d": "İhtiyacınıza göre esnek kurulum seçenekleri" },
+      "i2": { "l": "Hibrit mimari desteği", "d": "Karma altyapılarda sorunsuz çalışma" },
+      "i3": { "l": "Kolay entegrasyon", "d": "Mevcut sistemlerinizle hızlı entegrasyon" }
+    }
+  }
+
+}

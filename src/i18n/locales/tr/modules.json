@@ -1,0 +1,29 @@
+{
+  "modules": {
+    "title": "Modüler Çözüm Yaklaşımı",
+    "subtitle": "Her bankanın farklı ihtiyaçları vardır. İhtiyacınız olan modülleri seçin.",
+    "enrichment": {
+      "title": "Veri Zenginleştirme Modülü",
+      "desc": "Mevcut verilerden türetilen çok seviyeli değişkenler",
+      "f1": "Seviye 1-3 KKB değişkenleri",
+      "f2": "Banka verilerinden türetilen değişkenler",
+      "f3": "Kompleks değişken türetimi",
+      "f4": "Alternatif veri entegrasyonu"
+    },
+    "analytiq": {
+      "title": "AnalytiQ Platform",
+      "desc": "End-to-end analitik çözüm platformu",
+      "f1": "ETL süreçleri",
+      "f2": "Model geliştirme",
+      "f3": "Model deployment",
+      "f4": "BI & Karar destek"
+    },
+    "hybrid": {
+      "title": "Hibrit Çözümler",
+      "desc": "İhtiyacınıza göre özelleştirilebilir",
+      "f1": "Sadece veri zenginleştirme",
+      "f2": "Sadece analitik platform",
+      "f3": "Tam entegre çözüm"
+    }
+  }
+}

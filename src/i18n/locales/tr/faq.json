@@ -1,0 +1,28 @@
+{
+  "questions": [
+    {
+      "q": "VariableWorks Studio'yu diğer analitik platformlardan ayıran nedir?",
+      "a": "Patentli teknolojimiz, KKB ile yapılan 3 yıllık Ar-Ge çalışması ve bankacılık sektörüne özel optimize edilmiş modüler yapımız bizi farklı kılar."
+    },
+    {
+      "q": "Modüler yapı nasıl çalışır? Sadece ihtiyacım olan modülleri kullanabilir miyim?",
+      "a": "Evet, tamamen modüler bir yapıya sahibiz. Sadece veri zenginleştirme, sadece analitik platform veya tam entegre çözüm seçeneklerinden birini tercih edebilirsiniz."
+    },
+    {
+      "q": "KKB değişkenlerinde Seviye 1, 2 ve 3 arasındaki fark nedir?",
+      "a": "Seviye 1 temel değişkenler, Seviye 2 gelişmiş risk skorlama değişkenleri, Seviye 3 ise çok boyutlu ve zaman serisi analizleri içeren kompleks değişkenlerdir."
+    },
+    {
+      "q": "Smart Variable Selection özelliği ne işe yarar?",
+      "a": "AI destekli bu özellik, on binlerce değişken arasından en yüksek tahmin gücüne sahip olanları otomatik olarak seçer ve model geliştirme sürecini hızlandırır."
+    },
+    {
+      "q": "Platform bulut tabanlı mı yoksa on-premise mi kurulabilir?",
+      "a": "Her iki seçenek de mevcut. Cloud, on-premise veya hibrit mimari desteği sunuyoruz."
+    },
+    {
+      "q": "Kurulum ve entegrasyon süreci ne kadar sürer?",
+      "a": "Proje kapsamına göre değişmekle birlikte, modüler yapımız sayesinde hızlı implementasyon sağlıyoruz."
+    }
+  ]
+}

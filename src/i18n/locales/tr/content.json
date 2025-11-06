@@ -1,0 +1,101 @@
+{
+  "platform": {
+    "title": "AnalytiQ Platform Özellikleri",
+    "subtitle": "Bankacılık sektörüne özel geliştirilmiş kapsamlı analitik çözümler",
+    "f1": {
+      "title": "Entegre Veri Ambarı",
+      "desc": "Tüm veri kaynaklarınızı tek bir merkezde toplayın. Farklı sistemlerden gelen verileri otomatik olarak entegre edin ve analiz için hazır hale getirin."
+    },
+    "f2": {
+      "title": "ETL Süreçleri",
+      "desc": "Veri çekme, dönüştürme ve yükleme işlemlerini otomatikleştirin. Karmaşık veri akışlarını görsel arayüz ile kolayca yönetin."
+    },
+    "f3": {
+      "title": "Smart Variable Selection",
+      "desc": "Yapay zeka destekli akıllı değişken seçimi ile on binlerce değişken arasından en yüksek tahmin gücüne sahip olanları otomatik olarak belirleyin."
+    },
+    "f4": {
+      "title": "Model Geliştirme",
+      "desc": "AutoML yetenekleri ile hızlı model geliştirme. Çoklu algoritma desteği, otomatik hiperparametre optimizasyonu ve model karşılaştırma araçları."
+    },
+    "f5": {
+      "title": "Model Deployment",
+      "desc": "Geliştirdiğiniz modelleri tek tıkla production ortamına alın. API entegrasyonu, versiyonlama ve monitoring özellikleri ile güvenli deployment."
+    },
+    "f6": {
+      "title": "BI ve Raporlama",
+      "desc": "Kapsamlı görselleştirme araçları ile interaktif dashboardlar oluşturun. Özelleştirilebilir raporlar ve otomatik bildirimler ile karar süreçlerinizi hızlandırın."
+    }
+  },
+  "technical": {
+    "title": "Teknolojik Avantajlar",
+
+    "f1": {
+      "title": "Patentli Teknoloji",
+      "desc": "Veri işleme ve analiz süreçlerinde kullanılan patentli teknolojiler ile yüksek performans ve düşük maliyet."
+    },
+    "f2": {
+      "title": "3 Yıllık Ar-Ge",
+      "desc": "KKB ile gerçekleştirilen 3 yıllık Ar-Ge çalışması sonucunda bankacılık sektörüne özel optimize edilmiş çözüm."
+    },
+    "f3": {
+      "title": "Third-Party Bağımlılığı Yok",
+      "desc": "Dışa bağımlılığı minimuma indiren yerli teknoloji ile tam kontrol ve esneklik."
+    },
+    "f4": {
+      "title": "AutoML Yetenekleri",
+      "desc": "Otomatik model geliştirme özellikleri ile uzman kadro ihtiyacını azaltır ve geliştirme sürecini hızlandırır. Kurumsal hafıza ve model dokümantasyonları kurumda güvende kalır."
+    }
+  },
+
+  "variables": {
+    "title": "Veri Zenginleştirme Modülü",
+    "level1": {
+      "title": "KKB Seviye 1 Değişkenler",
+      "subtitle": "Temel Değişkenler",
+      "desc": "Müşteri demografik bilgileri ve temel hesap verileri",
+      "f1": "Yaş, cinsiyet, meslek gibi demografik bilgiler",
+      "f2": "Hesap açılış tarihi ve hesap türü",
+      "f3": "İl, ilçe gibi coğrafi bilgiler",
+      "f4": "Temel müşteri segmentasyonu"
+    },
+    "level2": {
+      "title": "KKB Seviye 2 Değişkenler",
+      "subtitle": "İşlemsel Değişkenler",
+      "desc": "Müşteri işlem geçmişi ve davranış verileri",
+      "f1": "Aylık ortalama işlem sayısı ve tutarı",
+      "f2": "Kanal kullanım alışkanlıkları (ATM, şube, mobil)",
+      "f3": "Ürün kullanım yoğunluğu",
+      "f4": "İşlem sıklığı ve düzenliliği"
+    },
+    "level3": {
+      "title": "KKB Seviye 3 Değişkenler",
+      "subtitle": "Gelişmiş Analitik Değişkenler",
+      "desc": "Türetilmiş değişkenler ve trend analizleri",
+      "f1": "Harcama trendleri ve mevsimsellik",
+      "f2": "Bakiye değişim oranları",
+      "f3": "Ürün çapraz satış potansiyeli",
+      "f4": "Müşteri yaşam döngüsü aşaması"
+    },
+    "level4": {
+      "title": "Banka Verisi Değişkenler",
+      "subtitle": "Makine Öğrenmesi Değişkenleri",
+      "desc": "AI tabanlı tahminsel değişkenler",
+      "f1": "Churn riski skoru",
+      "f2": "Ürün satın alma olasılığı",
+      "f3": "Müşteri değer segmentasyonu",
+      "f4": "Davranış kümeleme sonuçları"
+    },
+    "level5": {
+      "title": "Kompleks Değişkenler",
+      "subtitle": "Dış Veri Kaynakları",
+      "desc": "Üçüncü parti veriler ve alternatif veri kaynakları",
+      "f1": "KKB kredi skoru ve borç bilgileri",
+      "f2": "Sosyal medya ve dijital ayak izi",
+      "f3": "Makroekonomik göstergeler",
+      "f4": "Sektörel ve bölgesel trendler"
+    }
+  }
+
+
+}

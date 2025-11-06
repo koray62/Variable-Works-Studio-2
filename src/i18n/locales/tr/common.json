@@ -1,0 +1,72 @@
+{
+  "nav": {
+    "brand": "VariableWorks Studio",
+    "solutions": "Çözümler",
+    "contact": "İletişim",
+    "requestDemo": "Demo Talep Et",
+    "downloadPDF": "Satış Sunumunu İndir"
+  },
+  "hero": {
+    "title": "Ham Veriden",
+    "titleHighlight": "Karara",
+    "subtitle": "Yapay Zeka Destekli Veri Zenginleştirme ve Analitik Platform Çözümleri",
+    "exploreSolutions": "Çözümleri Keşfedin",
+    "getInTouch": "İletişime Geçin"
+  },
+  "process": {
+    "step1": "Ham Veri",
+    "step2": "Veri Zenginleştirme",
+    "step3": "Analitik Modeller",
+    "step4": "Karar Destek",
+    "subtitle": "Bankacılık sektörü için modüler yapay zeka ve analitik çözümleri"
+  },
+  "contact": {
+    "title": "İletişime Geçin",
+    "subtitle": "Çözümlerimiz hakkında detaylı bilgi almak için formu doldurun",
+    "name": "Ad Soyad",
+    "namePlaceholder": "Adınız ve soyadınız",
+    "email": "E-posta",
+    "emailPlaceholder": "email@example.com",
+    "company": "Kurum",
+    "companyPlaceholder": "Kurum adı",
+    "phone": "Telefon Numarası",
+    "phonePlaceholder": "+90 (555) 123-4567",
+    "message": "Mesaj",
+    "messagePlaceholder": "Mesajınız...",
+    "submit": "Gönder",
+    "sending": "Gönderiliyor...",
+    "successMessage": "Mesajınız başarıyla gönderildi!",
+    "errors": {
+      "nameRequired": "Ad soyad gereklidir",
+      "emailRequired": "E-posta gereklidir",
+      "emailInvalid": "Lütfen geçerli bir e-posta adresi girin",
+      "phoneInvalid": "Lütfen geçerli bir telefon numarası girin",
+      "messageRequired": "Mesaj gereklidir",
+      "messageTooShort": "Mesaj en az 10 karakter olmalıdır",
+      "sendFailed": "Mesaj gönderilemedi. Lütfen tekrar deneyin."
+    }
+  },
+  "faq": {
+    "title": "Sıkça Sorulan Sorular",
+    "subtitle": "VariableWorks Studio hakkında merak edilenler"
+  },
+  "technical": {
+    "title": "Teknik Üstünlükler"
+  },
+  "footer": {
+    "description": "Yapay zeka destekli veri zenginleştirme ve analitik platform çözümleri",
+    "solutions": "Çözümler",
+    "dataEnrichment": "Veri Zenginleştirme",
+    "analytiqPlatform": "AnalytiQ Platform",
+    "hybridSolutions": "Hibrit Çözümler",
+    "platform": "Platform",
+    "features": "Özellikler",
+    "documentation": "Dokümantasyon",
+    "api": "API",
+    "contactUs": "Bize Ulaşın",
+    "support": "Destek",
+    "copyright": "© 2025 VariableWorks Studio. Tüm hakları saklıdır.",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Şartları"
+  }
+}
