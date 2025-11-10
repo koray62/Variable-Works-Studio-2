@@ -12,6 +12,8 @@ import FAQ from './FAQ';
 import ContactSection from './ContactSection';
 import Footer from './Footer';
 import ScrollToTop from './ScrollToTop';
+import { ChatbotWidget } from './ChatbotWidget';
+
 
 export default function AppLayout() {
   return (
@@ -29,6 +31,8 @@ export default function AppLayout() {
       <ContactSection />
       <Footer />
       <ScrollToTop />
+      <ChatbotWidget />
     </div>
   );
 }
+
