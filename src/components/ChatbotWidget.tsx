@@ -16,9 +16,9 @@ export const ChatbotWidget = () => {
         {isOpen ? <X size={28} /> : <MessageCircle size={28} />}
       </button>
 
-      {/* Chatbot Window */}
+      {/* Chatbot Window - Responsive */}
       {isOpen && (
-        <div className="fixed bottom-24 right-6 z-40 w-[400px] h-[600px] bg-white rounded-2xl shadow-2xl overflow-hidden border border-gray-200 animate-in slide-in-from-bottom-4 duration-300">
+        <div className="fixed inset-4 md:inset-auto md:bottom-24 md:right-6 z-40 md:w-[400px] md:h-[600px] w-full h-full bg-white rounded-2xl shadow-2xl overflow-hidden border border-gray-200 animate-in slide-in-from-bottom-4 duration-300">
           {isLoading && (
             <div className="absolute inset-0 flex items-center justify-center bg-white z-10">
               <Loader2 className="w-8 h-8 animate-spin text-purple-600" />
