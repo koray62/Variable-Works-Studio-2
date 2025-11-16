@@ -1,9 +1,13 @@
 // vite.config.ts
-import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react-swc';
-import { resolve } from 'node:path'; // ← ESM uyumlu
+import { fileURLToPath } from 'node:url';
+import { dirname, resolve } from 'node:path';
 
-export default defineConfig({
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+/** @type {import('vite').UserConfig} */
+export default {
   server: {
     host: '::',
     port: 8080,
@@ -14,7 +18,5 @@ export default defineConfig({
       '@': resolve(__dirname, 'src'),
     },
   },
-  // publicDir / copyPublicDir varsayılanları zaten bunlar, yazmasan da olur
-  // publicDir: 'public',
-  // build: { copyPublicDir: true },
-});
+  // publicDir ve copyPublicDir varsayılan olarak zaten doğru
+};
