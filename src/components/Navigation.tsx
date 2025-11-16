@@ -28,15 +28,39 @@ export default function Navigation() {
     localStorage.setItem('language', lng);
   };
 
-  const handleDownloadPDF = () => {
-    // public/dokuman.pdf dosyasını indir
-    const link = document.createElement('a');
-    link.href = '/dokuman.pdf';
-    link.download = 'dokuman.pdf'; // İndirilen dosyanın adı
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+  const handleDownloadPDF = async () => {
+    try {
+      // Dosyanın varlığını kontrol et
+      const response = await fetch('/dokuman.pdf');
+      
+      if (!response.ok) {
+        console.error('PDF dosyası bulunamadı:', response.status);
+        alert('PDF dosyası bulunamadı. Lütfen public/dokuman.pdf dosyasının var olduğundan emin olun.');
+        return;
+      }
+
+      // Dosyayı blob olarak al
+      const blob = await response.blob();
+      
+      // Blob'dan URL oluştur ve indir
+      const url = window.URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = 'VariableWorks_Dokuman.pdf';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      
+      // URL'i temizle
+      window.URL.revokeObjectURL(url);
+      
+      console.log('PDF başarıyla indirildi');
+    } catch (error) {
+      console.error('PDF indirme hatası:', error);
+      alert('PDF indirme sırasında bir hata oluştu. Konsolu kontrol edin.');
+    }
   };
+
 
 
 
