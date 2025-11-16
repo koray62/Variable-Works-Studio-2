@@ -32,7 +32,7 @@ export default function Navigation() {
     // Hazır PDF dosyasını indir (public klasöründen)
     const link = document.createElement('a');
     link.href = '/dokuman.pdf'; // PDF dosyanızı public/dokuman.pdf olarak ekleyin
-    link.download = 'VariableWorks_Dokuman.pdf';
+    link.download = 'dokuman.pdf';
     link.click();
   };
 
