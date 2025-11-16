@@ -33,7 +33,7 @@ export default function Navigation() {
     
     const link = document.createElement('a');
     link.href = '/dokuman.pdf';
-    link.download = 'Variable_Works_Studio_Dokuman.pdf';
+    link.download = 'dokuman.pdf';
     link.target = '_blank';
     document.body.appendChild(link);
     link.click();
