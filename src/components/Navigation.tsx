@@ -31,16 +31,15 @@ export default function Navigation() {
     console.log('PDF indirme başlatılıyor...');
     console.log('Base URL:', window.location.origin);
     
-    const link = document.createElement('a');
-    link.href = '/dokuman.pdf';
-    link.download = 'dokuman.pdf';
-    link.target = '_blank';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-    
-    console.log('PDF indirme linki tıklandı');
-  };
+    const handleDownloadPDF = () => {
+  const href = `${import.meta.env.BASE_URL}dokuman.pdf`; 
+  const link = document.createElement('a');
+  link.href = href;
+  link.download = 'dokuman.pdf';
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+};
 
   return (
     <nav className={`fixed top-0 w-full z-50 transition-all ${isScrolled ? 'bg-[#0A1628]/95 backdrop-blur-md shadow-lg' : 'bg-transparent'}`}>
