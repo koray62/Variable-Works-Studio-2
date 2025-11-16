@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Download } from 'lucide-react';
-import { generateSalesPDF } from '../utils/generatePDF';
 
 export default function Navigation() {
   const { t, i18n } = useTranslation('common');
@@ -30,8 +29,13 @@ export default function Navigation() {
   };
 
   const handleDownloadPDF = () => {
-    generateSalesPDF(t);
+    // Hazır PDF dosyasını indir (public klasöründen)
+    const link = document.createElement('a');
+    link.href = '/dokuman.pdf'; // PDF dosyanızı public/dokuman.pdf olarak ekleyin
+    link.download = 'VariableWorks_Dokuman.pdf';
+    link.click();
   };
+
 
 
   return (
