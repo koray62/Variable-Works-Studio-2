@@ -25,65 +25,22 @@ export default function Navigation() {
 
   const changeLanguage = (lng: string) => {
     i18n.changeLanguage(lng);
-    localStorage.setItem('language', lng);
   };
 
-  const handleDownloadPDF = async () => {
-    try {
-      console.log('PDF indirme başlatılıyor...');
-      
-      // Farklı path'leri dene
-      const paths = [
-        '/dokuman.pdf',
-        './dokuman.pdf',
-        `${window.location.origin}/dokuman.pdf`,
-        '/public/dokuman.pdf'
-      ];
-      
-      let success = false;
-      
-      for (const pdfPath of paths) {
-        try {
-          console.log('Denenen path:', pdfPath);
-          const response = await fetch(pdfPath);
-          
-          if (response.ok) {
-            console.log('PDF bulundu:', pdfPath);
-            const blob = await response.blob();
-            
-            // Blob'dan URL oluştur ve indir
-            const url = window.URL.createObjectURL(blob);
-            const link = document.createElement('a');
-            link.href = url;
-            link.download = 'VariableWorks_Dokuman.pdf';
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-            window.URL.revokeObjectURL(url);
-            
-            console.log('PDF başarıyla indirildi');
-            success = true;
-            break;
-          }
-        } catch (err) {
-          console.log(`${pdfPath} denemesi başarısız:`, err);
-        }
-      }
-      
-      if (!success) {
-        console.error('PDF dosyası hiçbir path\'te bulunamadı');
-        alert('PDF dosyası bulunamadı. Lütfen public/dokuman.pdf dosyasının var olduğundan emin olun.');
-      }
-    } catch (error) {
-      console.error('PDF indirme hatası:', error);
-      alert('PDF indirme sırasında bir hata oluştu. Konsolu kontrol edin.');
-    }
+  const handleDownloadPDF = () => {
+    console.log('PDF indirme başlatılıyor...');
+    console.log('Base URL:', window.location.origin);
+    
+    const link = document.createElement('a');
+    link.href = '/dokuman.pdf';
+    link.download = 'Variable_Works_Studio_Dokuman.pdf';
+    link.target = '_blank';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    
+    console.log('PDF indirme linki tıklandı');
   };
-
-
-
-
-
 
   return (
     <nav className={`fixed top-0 w-full z-50 transition-all ${isScrolled ? 'bg-[#0A1628]/95 backdrop-blur-md shadow-lg' : 'bg-transparent'}`}>
@@ -119,7 +76,6 @@ export default function Navigation() {
         </div>
       </div>
 
-
       {mobileMenuOpen && (
         <div className="md:hidden bg-[#0A1628] border-t border-white/10">
           <div className="px-4 py-4 space-y-4">
@@ -140,10 +96,8 @@ export default function Navigation() {
               {t('nav.requestDemo')}
             </button>
           </div>
-
         </div>
       )}
     </nav>
   );
 }
-
