@@ -8,15 +8,8 @@ const __dirname = dirname(__filename);
 
 /** @type {import('vite').UserConfig} */
 export default {
-  server: {
-    host: '::',
-    port: 8080,
-  },
+  server: { host: '::', port: 8080 },
   plugins: [react()],
-  resolve: {
-    alias: {
-      '@': resolve(__dirname, 'src'),
-    },
-  },
-  // publicDir ve copyPublicDir varsayılan olarak zaten doğru
+  resolve: { alias: { '@': resolve(__dirname, 'src') } },
+  // publicDir/copyPublicDir varsayılan zaten doğru
 };
