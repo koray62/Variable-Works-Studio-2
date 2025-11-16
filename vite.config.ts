@@ -1,24 +1,20 @@
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react-swc";
-import path from "path";
+// vite.config.ts
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react-swc';
+import { resolve } from 'node:path'; // ← ESM uyumlu
 
-// https://vitejs.dev/config/
-export default defineConfig(({ mode }) => ({
+export default defineConfig({
   server: {
-    host: "::",
+    host: '::',
     port: 8080,
   },
-  plugins: [
-    react()
-  ].filter(Boolean),
+  plugins: [react()],
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "./src"),
+      '@': resolve(__dirname, 'src'),
     },
   },
-  publicDir: 'public',
-  build: {
-    copyPublicDir: true,
-  },
-
-}));
+  // publicDir / copyPublicDir varsayılanları zaten bunlar, yazmasan da olur
+  // publicDir: 'public',
+  // build: { copyPublicDir: true },
+});
