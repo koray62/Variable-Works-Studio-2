@@ -1,10 +1,16 @@
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react-swc";
+import path from "path";
+
+// https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: './', // veya deploy dizinin örn. '/app/'
   server: {
     host: "::",
     port: 8080,
   },
-  plugins: [react()],
+  plugins: [
+    react()
+  ].filter(Boolean),
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
@@ -14,4 +20,5 @@ export default defineConfig(({ mode }) => ({
   build: {
     copyPublicDir: true,
   },
+
 }));
