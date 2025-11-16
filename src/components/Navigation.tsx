@@ -30,36 +30,56 @@ export default function Navigation() {
 
   const handleDownloadPDF = async () => {
     try {
-      // Dosyanın varlığını kontrol et
-      const response = await fetch('/dokuman.pdf');
+      console.log('PDF indirme başlatılıyor...');
       
-      if (!response.ok) {
-        console.error('PDF dosyası bulunamadı:', response.status);
-        alert('PDF dosyası bulunamadı. Lütfen public/dokuman.pdf dosyasının var olduğundan emin olun.');
-        return;
+      // Farklı path'leri dene
+      const paths = [
+        '/dokuman.pdf',
+        './dokuman.pdf',
+        `${window.location.origin}/dokuman.pdf`,
+        '/public/dokuman.pdf'
+      ];
+      
+      let success = false;
+      
+      for (const pdfPath of paths) {
+        try {
+          console.log('Denenen path:', pdfPath);
+          const response = await fetch(pdfPath);
+          
+          if (response.ok) {
+            console.log('PDF bulundu:', pdfPath);
+            const blob = await response.blob();
+            
+            // Blob'dan URL oluştur ve indir
+            const url = window.URL.createObjectURL(blob);
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = 'VariableWorks_Dokuman.pdf';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            window.URL.revokeObjectURL(url);
+            
+            console.log('PDF başarıyla indirildi');
+            success = true;
+            break;
+          }
+        } catch (err) {
+          console.log(`${pdfPath} denemesi başarısız:`, err);
+        }
       }
-
-      // Dosyayı blob olarak al
-      const blob = await response.blob();
       
-      // Blob'dan URL oluştur ve indir
-      const url = window.URL.createObjectURL(blob);
-      const link = document.createElement('a');
-      link.href = url;
-      link.download = 'VariableWorks_Dokuman.pdf';
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-      
-      // URL'i temizle
-      window.URL.revokeObjectURL(url);
-      
-      console.log('PDF başarıyla indirildi');
+      if (!success) {
+        console.error('PDF dosyası hiçbir path\'te bulunamadı');
+        alert('PDF dosyası bulunamadı. Lütfen public/dokuman.pdf dosyasının var olduğundan emin olun.');
+      }
     } catch (error) {
       console.error('PDF indirme hatası:', error);
       alert('PDF indirme sırasında bir hata oluştu. Konsolu kontrol edin.');
     }
   };
+
 
 
 
