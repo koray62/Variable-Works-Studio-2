@@ -29,12 +29,15 @@ export default function Navigation() {
   };
 
   const handleDownloadPDF = () => {
-    // Hazır PDF dosyasını indir (public klasöründen)
+    // public/dokuman.pdf dosyasını indir
     const link = document.createElement('a');
-    link.href = '/dokuman.pdf'; // PDF dosyanızı public/dokuman.pdf olarak ekleyin
-    link.download = 'dokuman.pdf';
+    link.href = '/dokuman.pdf';
+    link.download = 'dokuman.pdf'; // İndirilen dosyanın adı
+    document.body.appendChild(link);
     link.click();
+    document.body.removeChild(link);
   };
+
 
 
 
